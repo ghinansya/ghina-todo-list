@@ -6,10 +6,15 @@
 - Youtube Link : ( https://youtu.be/rJyrBR-nVgA )
 #
 - Setup dan Install
+Requirements :
+  
+    Node.js (npm, npx)
+
+    Browser : Chrome, Firefox, Edge, etc
 
 Clone Repository
-```ruby
-https://github.com/ghinansya/ghina-todo-list.git
+```html
+git clone https://github.com/ghinansya/ghina-todo-list.git
 ```
 ```ruby
 cd/ghina-todo-list
