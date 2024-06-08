@@ -1,38 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  font-family: "Patrick Hand", cursive;
+  background-color: #182553;
+  color: #eff6ff;
+  height: 100%;
+}
+
 .App {
+  max-width: 500px;
+  margin: auto;
   text-align: center;
+  justify-items: center;
+  padding-top: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  width: 124px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+  margin-bottom: 10px;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+  margin: 0;
+  padding: 0px;
+}
+
+input, textarea {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 0px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #dce9fd;
+  font-family: "Patrick Hand", cursive;
+  font-size: 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 5px 20px;
+  /* margin: 5px; */
+  margin: 5px 5px 0px 0px;
+  border: 0;
+  border-radius: 8px;
+  font-family: "Patrick Hand", cursive;
+  font-size: 20px;
+}
+
+
+.todo-item {
+  border: 0px solid #ddd;
+  border-radius: 8px;
+  padding: 5px 15px 15px 15px;
+  margin-bottom: 5px;
+  text-align: left;
+  background-color: #2d4aa0;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 10px;
+  background: rgba(0, 0, 0, 0.747);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.modal-content {
+  background: #2d4aa0;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.columns-50 {
+  display: flex;
+  width: 50%;
+}
+
+
+.title {
+  justify-items: center;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 6px 0px;
+}
+
+.desc {
+  display: block;
+  font-size: 17px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+p{
+  margin: 5px;
+  padding: 0;
+}
+
+hr{
+  border: 1px solid white;
+  opacity: 10%;
+  margin: 15px 0px;
 }
