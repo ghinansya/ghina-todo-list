@@ -2,45 +2,50 @@
 ## 2130511043
 ### Mobile Programming 2 - ToDo-List App
 
+#
+- Youtube Link : ( https://youtu.be/rJyrBR-nVgA )
+#
 - Setup dan Install
 
 Clone Repository
-```bash
+```ruby
 https://github.com/ghinansya/ghina-todo-list.git
 ```
-```bash
+```ruby
 cd/ghina-todo-list
 ```
 
 Menginstal package dalam proyek
-```bash
+```ruby
 npm install
 ```
 
 Menjalankan proyek
-```bash
+```ruby
 npm start
 ```
 
 Proyek akan berjalan di local dengan url:
-```bash
+```ruby
 https://127.0.0.1:3000
 ```
 
 #
 
 - Components & Files Directory :
-  - root
-     - src/
-     - App.css
-     - App.js
-     - index.js
-   
-    - components/
-    - - AddTodo.js
-    - - EditTodoModal.js
-    - - Modal.js
-    - - TodoItem.js
-    - - TodoList.js
-     
+```ruby
+├ ghina-todo-list
+├── src/
+├── │
+├── ├── App.css
+├── ├── App.js
+├── ├── index.js
+│   │
+├── ├── components/
+├── │   ├── AddTodo.js
+├── │   ├── EditTodoModal.js
+├── │   ├── Modal.js
+├── │   ├── TodoItem.js
+├── │   └── TodoList.js
+```
 #
